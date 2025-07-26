@@ -7,12 +7,22 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 const skills = [
-  { name: 'React', level: 95, color: 'neon-blue' },
-  { name: 'Next.js', level: 90, color: 'neon-green' },
-  { name: 'TypeScript', level: 88, color: 'neon-purple' },
-  { name: 'Node.js', level: 85, color: 'neon-blue' },
-  { name: 'PostgreSQL', level: 80, color: 'neon-green' },
-  { name: 'Prisma', level: 85, color: 'neon-purple' },
+  { name: 'React.js', level: 90, color: 'neon-blue' },
+  { name: 'TypeScript', level: 85, color: 'neon-green' },
+  { name: 'JavaScript', level: 85, color: 'neon-purple' },
+  { name: 'HTML5', level: 95, color: 'neon-blue' },
+  { name: 'CSS3', level: 95, color: 'neon-green' },
+  { name: 'Tailwind CSS', level: 90, color: 'neon-purple' },
+  { name: 'Sass', level: 80, color: 'neon-blue' },
+  { name: 'Next.js', level: 88, color: 'neon-green' },
+  { name: 'React Hooks', level: 85, color: 'neon-purple' },
+  { name: 'Context API', level: 80, color: 'neon-blue' },
+  { name: 'RESTful APIs', level: 85, color: 'neon-green' },
+  { name: 'Git', level: 90, color: 'neon-purple' },
+  { name: 'GitHub', level: 88, color: 'neon-blue' },
+  { name: 'Figma', level: 75, color: 'neon-green' },
+  { name: 'Photoshop', level: 70, color: 'neon-purple' },
+  { name: 'Illustrator', level: 70, color: 'neon-blue' },
 ];
 
 const stats = [

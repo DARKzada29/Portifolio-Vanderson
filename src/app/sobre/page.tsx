@@ -9,36 +9,14 @@ import Footer from '@/components/Footer';
 const experiences = [
   {
     id: 1,
-    title: 'Desenvolvedor Full Stack Sênior',
-    company: 'TechCorp Solutions',
-    location: 'São Paulo, SP',
-    startDate: '2022',
+    title: 'Designer Gráfico Autônomo',
+    company: 'Autônomo',
+    location: 'Brasil',
+    startDate: '2020',
     endDate: 'Presente',
     current: true,
-    description: 'Liderança técnica em projetos de grande escala usando React, Next.js, Node.js e PostgreSQL. Responsável por arquitetura de sistemas e mentoria de desenvolvedores júnior.',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'AWS'],
-  },
-  {
-    id: 2,
-    title: 'Desenvolvedor Frontend',
-    company: 'Digital Innovations',
-    location: 'São Paulo, SP',
-    startDate: '2021',
-    endDate: '2022',
-    current: false,
-    description: 'Desenvolvimento de interfaces modernas e responsivas para aplicações web. Foco em performance e experiência do usuário.',
-    technologies: ['React', 'Vue.js', 'JavaScript', 'Sass', 'Webpack'],
-  },
-  {
-    id: 3,
-    title: 'Desenvolvedor Junior',
-    company: 'StartupTech',
-    location: 'São Paulo, SP',
-    startDate: '2020',
-    endDate: '2021',
-    current: false,
-    description: 'Início da carreira desenvolvendo aplicações web com foco em aprendizado e crescimento técnico.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+    description: 'Desenvolvimento de identidades visuais, convites, embalagens, camisas personalizadas, logotipos e materiais gráficos diversos. Uso de ferramentas de design (Photoshop, Illustrator, Canva) para criações sob demanda para festas, casamentos, aniversários e empresas. Atendimento direto com clientes, foco em prazos, estética e personalização.',
+    technologies: ['Photoshop', 'Illustrator', 'Canva', 'Design Gráfico'],
   },
 ];
 
@@ -113,20 +91,11 @@ export default function Sobre() {
 
               <motion.div variants={itemVariants} className="space-y-4 text-muted-foreground text-lg">
                 <p>
-                  Desenvolvedor Full Stack apaixonado por criar soluções digitais que fazem a diferença. 
-                  Com mais de 3 anos de experiência, transformo ideias complexas em aplicações elegantes e funcionais.
+                  Desenvolvedor Front End em formação, com sólida experiência prática em React, TypeScript e desenvolvimento de aplicações web modernas. Já desenvolveu projetos completos de portfólio, login seguro e landing pages responsivas.
                 </p>
                 
                 <p>
-                  Especializado em <span className="text-neon-blue font-semibold">React</span>, 
-                  <span className="text-neon-green font-semibold"> Next.js</span> e 
-                  <span className="text-neon-purple font-semibold"> Node.js</span>, sempre busco as melhores 
-                  práticas e tecnologias mais recentes para entregar resultados excepcionais.
-                </p>
-
-                <p>
-                  Quando não estou codando, você me encontrará explorando novas tecnologias, 
-                  jogando ou planejando meu próximo projeto pessoal.
+                  Experiência paralela de 1 ano como designer gráfico autônomo, unindo visão estética com habilidades técnicas. Capacidade de traduzir protótipos em interfaces elegantes, funcionais e acessíveis.
                 </p>
               </motion.div>
 

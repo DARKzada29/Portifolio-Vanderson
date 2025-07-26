@@ -10,15 +10,15 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'contato@vandersoncangaty.dev',
-    href: 'mailto:contato@vandersoncangaty.dev',
+    value: 'vandersoncangaty@gmail.com',
+    href: 'mailto:vandersoncangaty@gmail.com',
     color: 'text-neon-blue',
   },
   {
     icon: Phone,
     label: 'Telefone',
-    value: '+55 (11) 99999-9999',
-    href: 'tel:+5511999999999',
+    value: '+55 (XX) XXXXX-XXXX',
+    href: 'tel:+55XXXXXXXXXXXX',
     color: 'text-neon-green',
   },
   {
@@ -33,13 +33,13 @@ const contactInfo = [
 const socialLinks = [
   {
     name: 'GitHub',
-    href: 'https://github.com/vandersoncangaty',
+    href: 'https://github.com/DARKzada29',
     icon: Github,
     color: 'hover:text-neon-blue',
   },
   {
     name: 'LinkedIn',
-    href: 'https://linkedin.com/in/vandersoncangaty',
+    href: 'https://linkedin.com/in/vanderson-alves-de-lima-cangaty',
     icon: Linkedin,
     color: 'hover:text-neon-green',
   },
