@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vandersoncangaty.dev/sitemap.xml
+
+# Disallow admin pages
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /sobre
+Allow: /projetos
+Allow: /blog
+Allow: /certificacoes
+Allow: /contato
+Allow: /ia-dark
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Host (replace with your actual domain)
+Host: https://vandersoncangaty.dev
+

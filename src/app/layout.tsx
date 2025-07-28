@@ -16,22 +16,25 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vanderson Cangaty - Desenvolvedor Full Stack",
+    default: "Vanderson Cangaty - Desenvolvedor Front End",
     template: "%s | Vanderson Cangaty"
   },
-  description: "Desenvolvedor Full Stack criando soluções reais com tecnologia de ponta. Especialista em React, Next.js, Node.js, TypeScript e tecnologias modernas.",
+  description: "Desenvolvedor Front End especializado em React, TypeScript e tecnologias modernas. Criando soluções digitais inovadoras e experiências de usuário excepcionais.",
   keywords: [
     "Vanderson Cangaty",
-    "Desenvolvedor Full Stack",
+    "Desenvolvedor Front End",
     "React",
     "Next.js",
     "TypeScript",
-    "Node.js",
     "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
     "Frontend",
-    "Backend",
     "Web Development",
-    "Portfolio"
+    "UI/UX",
+    "Portfolio",
+    "São Paulo"
   ],
   authors: [{ name: "Vanderson Cangaty" }],
   creator: "Vanderson Cangaty",
@@ -49,22 +52,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "pt_BR",
     url: "https://vandersoncangaty.dev",
-    title: "Vanderson Cangaty - Desenvolvedor Full Stack",
-    description: "Desenvolvedor Full Stack criando soluções reais com tecnologia de ponta.",
+    title: "Vanderson Cangaty - Desenvolvedor Front End",
+    description: "Desenvolvedor Front End especializado em React, TypeScript e tecnologias modernas. Criando soluções digitais inovadoras.",
     siteName: "Vanderson Cangaty Portfolio",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Vanderson Cangaty - Desenvolvedor Full Stack",
+        alt: "Vanderson Cangaty - Desenvolvedor Front End",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vanderson Cangaty - Desenvolvedor Full Stack",
-    description: "Desenvolvedor Full Stack criando soluções reais com tecnologia de ponta.",
+    title: "Vanderson Cangaty - Desenvolvedor Front End",
+    description: "Desenvolvedor Front End especializado em React, TypeScript e tecnologias modernas.",
     images: ["/images/og-image.jpg"],
     creator: "@vandersoncangaty",
   },

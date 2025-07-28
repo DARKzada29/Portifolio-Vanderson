@@ -4,12 +4,14 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Home, User, FolderOpen, Mail, Download, Bot } from 'lucide-react';
+import { Menu, X, Home, User, FolderOpen, Mail, Download, Bot, BookOpen, Award } from 'lucide-react';
 
   const navItems = [
     { name: 'Home', href: '/', icon: Home },
     { name: 'Sobre', href: '/sobre', icon: User },
     { name: 'Projetos', href: '/projetos', icon: FolderOpen },
+    { name: 'Blog', href: '/blog', icon: BookOpen },
+    { name: 'Certificações', href: '/certificacoes', icon: Award },
     { name: 'Contato', href: '/contato', icon: Mail },
     { name: 'IA DARK', href: '/ia-dark', icon: Bot },
   ];
