@@ -168,9 +168,10 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="w-full px-4 py-2 bg-neon-blue/10 text-neon-blue border border-neon-blue/20 rounded-lg font-medium hover:bg-neon-blue/20 hover:border-neon-blue/40 transition-all duration-300"
+              className="w-full px-4 py-2 bg-neon-blue/10 text-neon-blue border border-neon-blue/20 rounded-lg font-medium hover:bg-neon-blue/20 hover:border-neon-blue/40 transition-all duration-300 flex items-center justify-center space-x-2"
             >
-              Ver Detalhes
+              <span>Ver Detalhes</span>
+              <ExternalLink size={16} />
             </motion.button>
           </Link>
         </CardFooter>
